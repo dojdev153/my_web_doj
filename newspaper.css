@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(31, 30, 30);
+}
+.main_container2{
+    display: flex;
+    height: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+header{
+    color: purple;
+    font-size: 3rem;
+}
+.navbar{
+    font-size: 2rem;
+    background-color: rgb(5, 5, 5);
+    padding: 6px;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    margin: 2px;
+    padding: 6px;
+    
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    transition: 1s;
+    text-shadow: 0 0 15px  crimson,
+    0 0 12.5px   crimson,
+    0 0 25px   crimson,
+    0 0 500px  crimson;
+}
+
+i{
+    color: crimson;
+    font-size: 3rem;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdowncont{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+    text-align: left;
+    background-color: rgb(24, 24, 24);
+}
+
+.dropdown:hover .dropdowncont{
+    display: block;
+    transition: 4s;
+}
+.searchbtn{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: crimson;
+}
+.searchbtn i{
+    color: black;
+}
+.searchbtn i:hover{
+    color: white;
+    transition: 1s;
+    box-shadow: 0 0 5px  crimson,
+    0 0 12.5px   crimson,
+    0 0 25px   crimson,
+    0 0 500px  crimson;
+}
+.signin{
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 2rem 0 0 2rem;
+    cursor: pointer;
+    background-color: crimson;
+}
+.signin:hover{
+    color: white;
+    transition: 1s;
+    box-shadow: 0 0 5px  crimson,
+    0 0 12.5px   crimson,
+    0 0 25px   crimson,
+    0 0 500px  crimson;
+}
+.container2{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    height: 50%;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 30px;
+    float: right;
+}
+.minicont{
+    height: 70%;
+}
+.latest{
+    color: white;
+    font-size: 2rem;
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 15px;
+}
+.img1{
+    width: 70%;
+    padding: 20px;
+    
+}
+.latest2{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.written1{
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.img2{
+    width: 70%;
+    padding: 20px;
+
+}
+.latest3{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.written2{
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.minicont2:hover{
+    background-color: rgb(22, 21, 21);
+}
+.minicont, .minicont2{
+    border-radius: 30px;
+}
+.minicont:hover{
+    background-color: rgb(22, 21, 21);
+}
+
+.more{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(26, 24, 24);
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+.more:hover{
+     color: black;
+     transition: 1s;
+     cursor: pointer;
+}
+.head{
+    text-align: center;
+    color: rgb(240, 234, 234);
+    font-size: 35px;
+    width: 70%;
+    padding: 20px;
+   
+    
+}
+.container3{
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    height: auto;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    box-sizing: border-box;
+    overflow-Y: scroll;
+}
+.container3 p, .container3 span {
+    word-wrap: break-word;
+    max-width: 100%; 
+    box-sizing: border-box;
+}
+.img3{
+    width: 100%;
+    padding-left: 40px;
+    
+}
+span{
+    color: white;
+    padding-left: 70px;
+}
+.contact i{
+    font-size: 20px;
+    border: solid 4px;
+    border-radius: 1rem;
+    padding: 1px;
+}
+.contact i:hover{
+    box-shadow: 0 0 5px  crimson,
+    0 0 12.5px   crimson,
+    0 0 25px   crimson,
+    0 0 500px  crimson;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(204, 194, 194, 0.3));
+}
+.contact{
+    float: right;
+}
+.content{
+    width: 100%;
+    color: white;
+}
+.minicontent, .minicontent2{
+    font-size: 20px;
+    padding: 30px;
+}
+.comment i{
+    font-size: 20px;
+    border: solid 4px;
+    border-radius: 1rem;
+    padding: 1px;
+    cursor: pointer;
+}
+.comment i:hover{
+    box-shadow: 0 0 5px  crimson,
+    0 0 12.5px   crimson,
+    0 0 25px   crimson,
+    0 0 500px  crimson;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(204, 194, 194, 0.3));
+}
+.comment{
+    float: right;
+    transform: translate(0px,-40px);
+}
+.more2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color: grey;
+    width: auto;
+    max-width: 100%;
+    cursor: pointer;
+    height: 50%;
+    box-sizing: border-box;
+}
+
+.more2:hover{
+    color: black;
+    transition: 2s;
+}
+.container4 ul{
+    list-style: none;
+    color: white;
+    display: flex;
+   
+}
+.container4{
+    padding: 40px;
+    margin-top: 30px;
+    background-color: rgb(5, 5, 5);
+
+}
+.container4 ul li{
+    padding: 10px;
+}
+.container4 p{
+    color: white;
+    padding: 10px;
+}
+@media (max-width: 1030px) {
+    .main_container2 {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10rem;
+    
+    }
+
+    .container3 {
+        width: 100%;
+        height: 85.6rem;
+    }
+
+    .container2 {
+        float: none;
+        width: 90%;
+        margin: 20px auto;
+        
+        margin-top: 200px;
+    }
+    
+}
+@media (max-width: 970px) {
+    .container2{
+        height: 100%;
+    }
+    .more2{
+        height: 20%;
+    }
+    
+    .minicont{
+       height: 40rem;
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.log i, .searchbtn i, .navbar a, .signin {
+    font-size: 2rem;
+}
+
+
+@media (max-width: 880px) {
+   
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }    
+    .log i, .searchbtn i {
+        font-size: 1.5rem; 
+    }    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a {
+        font-size: 1.5rem; 
+        padding: 10px;
+    }    
+    .signin {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        border-radius: 30px;
+    }    
+    .dropdowncont {
+        text-align: center;
+    }    
+    header {
+        font-size: 2.5rem;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 880px) {
+    .container3 {
+        padding: 15px;
+    }
+    .more3 {
+        font-size: 1.3rem;
+        padding: 12px;
+    }
+}
+
